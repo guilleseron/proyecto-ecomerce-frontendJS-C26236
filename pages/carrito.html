@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carrito de compras de Carnes Don Guille - Revisa tu pedido de cortes de carne premium al vacío.">
+    <title>Carrito de Compras | Carnes Don Guille</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="brand">
+                <h1 class="site-title">Carnes Don Guille</h1>
+                <p class="site-tagline">Cortes vacunos premium envasados al vacío</p>
+            </div>
+            <nav aria-label="Navegación principal">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="carrito.html" aria-current="page" class="nav-link active">Carrito</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal" class="container">
+        <section class="cart-section" aria-labelledby="titulo-carrito">
+            <h2 id="titulo-carrito" class="section-title">Tu Carrito de Compras</h2>
+            <p class="section-intro">Revisa las piezas envasadas al vacío seleccionadas antes de confirmar tu pedido.</p>
+
+            <div class="table-responsive">
+                <table class="cart-table">
+                    <caption>Detalle de productos seleccionados en el pedido actual</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Corte (Envasado al vacío)</th>
+                            <th scope="col">Presentación</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Precio por pieza</th>
+                            <th scope="col">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Asado</td>
+                            <td>Pieza entera (aprox. 1 kg)</td>
+                            <td>1</td>
+                            <td>$21.250</td>
+                            <td>$21.250</td>
+                        </tr>
+                        <tr>
+                            <td>Vacío</td>
+                            <td>Pieza entera (aprox. 1 kg)</td>
+                            <td>1</td>
+                            <td>$21.000</td>
+                            <td>$21.000</td>
+                        </tr>
+                        <tr>
+                            <td>Entraña</td>
+                            <td>Pieza entera (aprox. 1 kg)</td>
+                            <td>1</td>
+                            <td>$29.999</td>
+                            <td>$29.999</td>
+                        </tr>
+                        <tr>
+                            <td>Matambre</td>
+                            <td>Pieza entera (aprox. 1.5 kg)</td>
+                            <td>1</td>
+                            <td>$30.000</td>
+                            <td>$30.000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="4" class="total-label">Total del pedido:</th>
+                            <td class="total-amount">$102.249</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="cart-actions">
+                <a href="index.html" class="btn btn-secondary">Seguir comprando</a>
+                <a href="contacto.html" class="btn">Coordinar entrega y pago</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>Sitio realizado por Guille para Talento Tech</p>
+        </div>
+    </footer>
+</body>
+</html>
