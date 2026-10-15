@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto de Carnes Don Guille - Comunícate con nosotros o envíanos tu consulta mediante el formulario.">
+    <title>Contacto | Carnes Don Guille</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="brand">
+                <h1 class="site-title">Carnes Don Guille</h1>
+                <p class="site-tagline">Cortes vacunos premium envasados al vacío</p>
+            </div>
+            <nav aria-label="Navegación principal">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="carrito.html" class="nav-link">Carrito</a></li>
+                    <li><a href="contacto.html" aria-current="page" class="nav-link active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal" class="container">
+        <h2 class="section-title">Contacto y Pedidos</h2>
+
+        <div class="contact-layout">
+            <section class="contact-form-section" aria-labelledby="titulo-formulario">
+                <h3 id="titulo-formulario">Formulario del Cliente</h3>
+                <p>Completa tus datos para realizar consultas o coordinar el envío de tu pedido. Los campos marcados con <span aria-hidden="true">*</span><span class="sr-only">asterisco</span> son obligatorios.</p>
+
+                <form action="#" method="post" class="contact-form">
+                    <fieldset>
+                        <legend>Datos personales y de contacto</legend>
+
+                        <div class="form-group">
+                            <label for="nombre">Nombre y Apellido <span aria-hidden="true">*</span></label>
+                            <input type="text" id="nombre" name="nombre" autocomplete="name" required aria-required="true" placeholder="Ej. Juan Pérez">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo electrónico <span aria-hidden="true">*</span></label>
+                            <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" placeholder="ejemplo@correo.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono / WhatsApp <span aria-hidden="true">*</span></label>
+                            <input type="tel" id="telefono" name="telefono" autocomplete="tel" required aria-required="true" placeholder="Ej. 11 2345-6789">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="direccion-cliente">Dirección de entrega</label>
+                            <input type="text" id="direccion-cliente" name="direccion_cliente" autocomplete="street-address" placeholder="Calle, número y localidad">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="corte-interes">Corte de interés principal</label>
+                            <select id="corte-interes" name="corte_interes">
+                                <option value="">Seleccione una opción (opcional)</option>
+                                <option value="asado">Asado (Pieza al vacío)</option>
+                                <option value="vacio">Vacío (Pieza al vacío)</option>
+                                <option value="entrana">Entraña (Pieza al vacío)</option>
+                                <option value="matambre">Matambre (Pieza al vacío)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje o detalle del pedido <span aria-hidden="true">*</span></label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required aria-required="true" placeholder="Indica las piezas requeridas o tu consulta..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Enviar datos</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="store-info-section" aria-labelledby="titulo-datos-comercio">
+                <h3 id="titulo-datos-comercio">Datos del Comercio</h3>
+                <p>También puedes comunicarte directamente con nosotros a través de nuestros canales oficiales de atención:</p>
+
+                <address class="store-address">
+                    <ul class="contact-list">
+                        <li>
+                            <strong>Dirección:</strong> Av. de los Corrales 6800, Mataderos, Ciudad Autónoma de Buenos Aires
+                        </li>
+                        <li>
+                            <strong>Teléfono fijo:</strong> <a href="tel:+541146870000">(011) 4687-0000</a>
+                        </li>
+                        <li>
+                            <strong>WhatsApp:</strong> <a href="https://wa.me/5491127070324" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensaje por WhatsApp al 1127070324">1127070324</a>
+                        </li>
+                        <li>
+                            <strong>Correo electrónico:</strong> <a href="mailto:contacto@carnesdonguille.com.ar">contacto@carnesdonguille.com.ar</a>
+                        </li>
+                        <li>
+                            <strong>Instagram:</strong> <a href="https://www.instagram.com/carnes_don_guille" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil de Instagram carnes_don_guille">@carnes_don_guille</a>
+                        </li>
+                    </ul>
+                </address>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>Sitio realizado por Guille para Talento Tech</p>
+        </div>
+    </footer>
+</body>
+</html>
